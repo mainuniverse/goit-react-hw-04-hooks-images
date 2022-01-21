@@ -1,21 +1,19 @@
 import Loader from 'react-loader-spinner';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 
-const Spinner = () => {
+function Spinner() {
   return (
-    <div className="Button-wraper">
       <Loader
-        type= "Puff"
+        type="oval"
         color="#00BFFF"
         height={100}
         width={100}
-        timeout={3000} //3 secs
+       timeout={3000}
+      ariaLabel='loading'
       />
-    </div>
   );
-};
-
- export default Spinner;
+}
+export default Spinner;
 
 // import Loader from "react-loader-spinner";
 // export default class App extends React.Component {

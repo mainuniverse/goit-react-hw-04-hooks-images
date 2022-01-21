@@ -1,6 +1,6 @@
 import s from './ImageGalleryItem.module.css';
 import PropTypes from 'prop-types';
-
+import shortid from 'shortid';
 function ImageGalleryItem({ images, onOpenModal }) {
   return (
     <>
