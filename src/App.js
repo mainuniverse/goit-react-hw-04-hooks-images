@@ -24,8 +24,7 @@ function App() {
     if (!searchValue) {
       return;
     }
-    // console.log('пуск');
-    const fetchImages = () => {
+     const fetchImages = () => {
       setStatus('pending');
 
       fetchApi(searchValue, page)
