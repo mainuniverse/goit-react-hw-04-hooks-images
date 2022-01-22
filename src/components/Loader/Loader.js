@@ -4,7 +4,7 @@ import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 function Spinner() {
   return (
       <Loader
-        type="oval"
+        type="Oval"
         color="#00BFFF"
         height={100}
         width={100}
